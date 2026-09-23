@@ -8,15 +8,16 @@ export default function About() {
           </h2>
           <div className="max-w-prose space-y-4 text-sm leading-relaxed text-slate sm:col-span-3">
             <p>
-              Most small businesses end up hiring a web developer for their
-              online presence and a separate accountant for their books —
-              two vendors, two timelines, two people to chase for updates.
+              Most small businesses end up hiring a developer for their
+              website and a separate person (or nobody) for social media
+              and content — two vendors, two timelines, an online presence
+              that never quite feels joined up.
             </p>
             <p>
               We started this studio to close that gap: a developer
-              handling the site and the tech, and a finance professional
-              working alongside a practicing Chartered Accountant handling
-              the compliance side. One conversation covers both.
+              handling the site and the tech, and a content/growth
+              specialist handling social media, branding and visibility.
+              One conversation covers both.
             </p>
             <p>
               We're just getting started, which means early projects get

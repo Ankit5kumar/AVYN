@@ -5,19 +5,18 @@ export default function Hero() {
     <section className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
       <div className="grid gap-12 sm:grid-cols-5 sm:items-center sm:gap-10">
         <div className="sm:col-span-3">
-          {/* <p className="font-sans text-sm tracking-wide text-slate">
+          <p className="font-sans text-sm tracking-wide text-slate">
             {siteConfig.location}
-          </p> */}
+          </p>
           <h1 className="mt-4 max-w-prose font-serif text-4xl font-semibold leading-tight text-ink sm:text-5xl">
-            We build your presence.
+            Ideas today.
             <br />
-            <span className="text-brass">We keep your books straight.</span>
+            <span className="text-brass">Presence that grows tomorrow.</span>
           </h1>
           <p className="mt-6 max-w-prose text-base leading-relaxed text-slate">
-            One team for the two things most small businesses put off: a
-            website worth sending customers to, and books that hold up at
-            tax time. We build the first as developers; we handle the
-            second alongside a practicing Chartered Accountant.
+            We help small businesses look and sound as good online as they
+            do in person — websites, social content and a brand presence
+            built to actually bring customers in, not just look nice.
           </p>
           <a
             href="#contact"
@@ -29,7 +28,7 @@ export default function Hero() {
 
         {/*
           Photo panel — replace the placeholder below with a real photo
-          of you two working (desk setup, a whiteboard session, anything
+          of you two working (desk setup, a content shoot, anything
           unstaged) using next/image, e.g.:
           <Image src="/hero.jpg" alt="..." fill className="object-cover" />
           A real, slightly imperfect photo will do more for trust here
@@ -46,9 +45,9 @@ export default function Hero() {
                 Two founders, one team.
               </p>
               <p className="mt-2 text-sm leading-relaxed text-slate">
-                A developer and a finance professional working with a
-                Chartered Accountant — the site and the paperwork behind
-                it come from the same place.
+                A developer and a content/growth specialist — the site,
+                the content and the strategy behind it come from the
+                same place.
               </p>
             </div>
           </div>
