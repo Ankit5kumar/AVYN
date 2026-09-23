@@ -6,7 +6,7 @@ export const siteConfig = {
   name: "AVYN",
   domain: "avyn.in",
   tagline: "Ideas today. Presence that grows tomorrow.",
-  location: "Parwanoo, Himachal Pradesh",
+  location: "Gurgaon, Haryana",
   email: "hello@avyn.in",
   phone: "+91 00000 00000",
   social: {
