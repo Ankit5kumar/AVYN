@@ -5,7 +5,7 @@
 export const siteConfig = {
   name: "AVYN",
   domain: "avyn.in",
-  tagline: "We build your presence. We keep your books straight.",
+  tagline: "Ideas today. Presence that grows tomorrow.",
   location: "Parwanoo, Himachal Pradesh",
   email: "hello@avyn.in",
   phone: "+91 00000 00000",
@@ -16,22 +16,23 @@ export const siteConfig = {
   },
 };
 
-// Swap these in once you have real pilot/case-study work — keep this
-// section honest and empty (or hidden) until then rather than filling
-// it with placeholder claims.
+// Swap these in with your real live project URLs — replace title,
+// summary, and add a url. Keep this section honest: only list work
+// you actually built.
 export const featuredWork: {
   title: string;
   tag: string;
   summary: string;
+  url?: string;
 }[] = [
   {
-    tag: "Web development",
-    title: "Add your first project here",
+    tag: "Website",
+    title: "Add your first live project here",
     summary:
-      "Replace with a one-line result once you've completed a pilot site or accounting cleanup.",
+      "Replace with the client/project name, what you built, and a link to the live site.",
   },
   {
-    tag: "Finance & compliance",
+    tag: "Social & content",
     title: "Add your second project here",
     summary:
       "A short, honest line on the outcome works better than a long description.",
@@ -40,24 +41,29 @@ export const featuredWork: {
 
 export const services = [
   {
-    title: "Websites & web apps",
+    title: "Social Media Management",
     detail:
-      "Built on the MERN stack — fast, mobile-friendly sites and simple booking or catalogue tools for local businesses.",
+      "Instagram, LinkedIn and Facebook handled end to end — content planning, regular posts, carousels, reels and profile optimisation.",
   },
   {
-    title: "Business listings & online presence",
+    title: "Content & Creative Design",
     detail:
-      "Google Business Profile setup, directory listings, and social page structuring so customers can actually find you.",
+      "Graphics, carousels, reels and business content designed to communicate your brand clearly and actually get attention.",
   },
   {
-    title: "Accounting & compliance",
+    title: "Website Development & Management",
     detail:
-      "Bookkeeping, GST filing, and financial statements handled by a practicing Chartered Accountant.",
+      "Professional websites built and kept updated, relevant and user-friendly — not a one-time build you're left to maintain alone.",
   },
   {
-    title: "Ongoing support",
+    title: "Brand & Profile Enhancement",
     detail:
-      "One point of contact for both your site and your books, instead of juggling two separate vendors.",
+      "Business profiles, bios and visual identity refined so your presence looks as professional as your work.",
+  },
+  {
+    title: "SEO & Digital Growth",
+    detail:
+      "Search visibility and growth strategy focused on sustainable results, not shortcuts.",
   },
 ];
 
@@ -66,18 +72,18 @@ export const process = [
     step: "01",
     title: "We look at what you have",
     detail:
-      "A short call to understand your business, your current online presence (if any), and where your books stand.",
+      "A short call to understand your business and audit your current online presence, if any.",
   },
   {
     step: "02",
     title: "We build in the open",
     detail:
-      "You see drafts of the site as it's built and get a plain-language summary of what's needed on the accounting side.",
+      "You see drafts and content plans as they're made, not a single reveal at the end.",
   },
   {
     step: "03",
     title: "We hand it over and stay on",
     detail:
-      "Launch the site, file what needs filing, and stay available for updates — not a one-time drop-off.",
+      "Launch, and stay available for ongoing content, updates and growth — not a one-time drop-off.",
   },
 ];
