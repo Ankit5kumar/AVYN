@@ -26,10 +26,11 @@ export const featuredWork: {
   url?: string;
 }[] = [
   {
-    tag: "Website",
-    title: "Add your first live project here",
+    tag: "E-commerce",
+    title: "Addior",
     summary:
-      "Replace with the client/project name, what you built, and a link to the live site.",
+      "A full e-commerce platform — product catalog, cart, checkout and the rest of what a modern online store needs",
+      url: "https://addior.in",
   },
   {
     tag: "Social & content",

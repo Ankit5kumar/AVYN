@@ -12,19 +12,33 @@ export default function FeaturedWork() {
           Recent work
         </h2>
         <div className="mt-8 grid gap-6 sm:grid-cols-2">
-          {featuredWork.map((item) => (
-            <div key={item.title} className="border hairline p-6">
-              <p className="font-sans text-xs uppercase tracking-widest text-brass">
-                {item.tag}
-              </p>
-              <p className="mt-3 font-serif text-lg font-semibold text-ink">
-                {item.title}
-              </p>
-              <p className="mt-2 text-sm leading-relaxed text-slate">
-                {item.summary}
-              </p>
-            </div>
-          ))}
+          {featuredWork.map((item) => {
+  const Wrapper = item.url ? "a" : "div";
+  return (
+    <Wrapper
+      key={item.title}
+      {...(item.url
+        ? { href: item.url, target: "_blank", rel: "noopener noreferrer" }
+        : {})}
+      className="block border hairline p-6 transition-colors hover:border-brass"
+    >
+      <p className="font-sans text-xs uppercase tracking-widest text-brass">
+        {item.tag}
+      </p>
+      <p className="mt-3 font-serif text-lg font-semibold text-ink">
+        {item.title}
+      </p>
+      <p className="mt-2 text-sm leading-relaxed text-slate">
+        {item.summary}
+      </p>
+      {item.url && (
+        <p className="mt-3 text-sm font-medium text-ink underline decoration-brass decoration-2 underline-offset-4">
+          Visit site
+        </p>
+      )}
+    </Wrapper>
+  );
+})}
         </div>
       </div>
     </section>
